@@ -3,20 +3,24 @@ import Link from "next/link";
 import {Suspense} from "react";
 import Spinner from "@/components/Spinner";
 import About from "@/modules/about/about";
+import Header from "@/components/Header";
 
 export default function Home() {
     return (
         <main className="w-full h-full bg-white dark:bg-black">
-            <div className="h-[90vh] w-full flex items-center justify-center">
+            <Header />
+            <div className="px-4">
+            <div className="h-[90vh] w-full flex items-center justify-center rounded-b-3xl overflow-hidden">
                 <Suspense fallback={<Spinner/>}>
                     <Spline
-                        className="h-[80vh] w-full"
-                        scene="https://draft.spline.design/7JC1TFvfN2PBV1w4/scene.splinecode"
+                        className="h-[80vh]"
+                        scene="https://draft.spline.design/QHaEJ5nRQpGhRJDO/scene.splinecode"
                     />
                 </Suspense>
             </div>
+            </div>
             <Link href={'#work'}>
-                <div className="pt-6 pb-6 flex items-center justify-center cursor-pointer">
+                <div id='more' className="pt-6 pb-6 flex items-center justify-center cursor-pointer">
                     <div className="scroll" />
                 </div>
             </Link>

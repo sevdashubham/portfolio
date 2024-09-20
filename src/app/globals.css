@@ -23,6 +23,12 @@ html {
     scroll-behavior: smooth;
 }
 
+.header-background {
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    --tw-bg-opacity: 0.9;
+    border-radius: 3rem;
+}
 
 .lds-grid,
 .lds-grid div {
