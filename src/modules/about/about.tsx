@@ -34,7 +34,7 @@ export default function About() {
                         className="mt-4 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-xl"
                     >
                         Software engineer been pushing code for more than 8 years, helped bring
-                        multiple startups' visions to life. Committed to excellence. In the
+                        multiple startups&apos; visions to life. Committed to excellence. In the
                         digital world, I craft interfaces and dive into coding intricacies.
                         <br/>
                         <br/>
@@ -349,7 +349,7 @@ export default function About() {
                                 name="email-address"
                                 id="email-address"
                                 autoComplete="email"
-                                required=""
+                                required
                                 className="block w-full h-12 px-4 py-2 text-sm text-zinc-500 bg-zinc-100 dark:bg-tertiary ring-1 dark:ring-white/10 ring-primary/5 rounded-lg appearance-none focus:ring-white/20 placeholder-zinc-400 focus:border-zinc-300 focus:bg-primary focus:outline-none focus:ring-indigo-500 sm:text-sm"
                                 placeholder="Enter your email"
                             />
@@ -375,8 +375,8 @@ export default function About() {
                     <div className="md:grid md:grid-cols-2 gap-6 lg:grid-cols-1">
                         <div className="mt-4">
                             <p className="text-sm text-pink-500 dark:text-pink-400">
-                                "Big fan of your themes. They're well-organized, look clean, and
-                                are fast."
+                                &quot;Big fan of your themes. They&apos;re well-organized, look clean, and
+                                are fast.&quot;
                             </p>
                             <p className="text-xs mt-2 text-zinc-500">
                                 <span className="block text-xs">Kevin Focke</span>
@@ -385,7 +385,7 @@ export default function About() {
                         </div>
                         <div className="mt-4">
                             <p className="text-sm text-orange-500 dark:text-orange-300">
-                                "Amazing resource using @astrodotbuild and @tailwindcss! I got it
+                                &quot;Amazing resource using @astrodotbuild and @tailwindcss! I got it
                                 a week ago and have found the contents really useful. 5/5
                             </p>
                             <p className="text-xs mt-2 text-zinc-500">
