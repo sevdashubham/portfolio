@@ -9,7 +9,7 @@ export default function About() {
         }
     }
 
-    return <section id="work">
+    return <section>
         <div className="p-4">
             <div
                 className="grid grid-cols-1 gap-4 list-none lg:grid-cols-3 lg:grid-rows-3 xl:grid-cols-4 xl:grid-rows-4"
@@ -20,7 +20,7 @@ export default function About() {
                     <div className="relative flex items-center gap-x-4">
                         <div className="h-10 w-10 relative">
                             <Image
-                                src={'/images/avatar.jpg'}
+                                src={'/images/avatar.jpeg'}
                                 alt="Picture of the site owner"
                                 fill
                                 sizes="10vw"
@@ -196,7 +196,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <div
+                <div id="resume"
                     className="ring-1 dark:ring-white/10  ring-primary/5 flex flex-col justify-between items-center rounded-3xl shadow-xl dark:shadow-thick p-8  bg-white dark:bg-secondary overflow-hidden text-center lg:text-left"
                 >
                     <div>
