@@ -9,7 +9,7 @@ export default function About() {
         }
     }
 
-    return <section id="work">
+    return <section>
         <div className="p-4">
             <div
                 className="grid grid-cols-1 gap-4 list-none lg:grid-cols-3 lg:grid-rows-3 xl:grid-cols-4 xl:grid-rows-4"
@@ -182,7 +182,7 @@ export default function About() {
                             🐾
                         </p>
                     </div>
-                    <div className="mt-8">
+                    <div className="mt-8" id="resume">
                         <div className="relative h-full w-full overflow-hidden">
                             <Image
                                 width={0}

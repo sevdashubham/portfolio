@@ -33,7 +33,7 @@ export default function Header() {
                     </Link>
                     <div className="flex flex-row justify-end items-center">
                         <div className="pl-5">
-                            <a href="/#more">
+                            <a href="/#resume">
                                 <button type="button"
                                         className="text-white bg-blue-500 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full
                    text-sm px-5 py-2.5 text-center font-semibold dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">{'Resume'}</button>
