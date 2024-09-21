@@ -2,15 +2,15 @@
 import Link from "next/link";
 import {scrollWindowTop} from "@/utils/functions";
 import useIsMobile from "@/hooks/useIsMobile";
-import {useTheme} from "next-themes";
-import {useEffect} from "react";
+// import {useTheme} from "next-themes";
+// import {useEffect} from "react";
 
 export default function Header() {
     const isMobile = useIsMobile();
-    const {setTheme} = useTheme();
-    useEffect(() => {
-        setTheme('dark')
-    }, [])
+    // const {setTheme} = useTheme();
+    // useEffect(() => {
+    //     setTheme('dark')
+    // }, [])
     const populateHeaderWidth = () => {
         if (isMobile) {
             return '90%'
