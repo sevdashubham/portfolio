@@ -1,4 +1,6 @@
 "use client"
+import Image from "next/image";
+
 export default function About() {
 
     const scrollWindowTop = () => {
@@ -16,11 +18,15 @@ export default function About() {
                     className="lg:row-span-2 ring-1 dark:ring-white/10 ring-primary/5 bg-white dark:bg-secondary shadow-xl dark:shadow-thick rounded-3xl p-8"
                 >
                     <div className="relative flex items-center gap-x-4">
-                        <img
-                            src="/images/avatar.jpg"
-                            alt=""
-                            className="h-10 w-10 rounded-full ring-1 dark:ring-white/10 ring-primary/5"
-                        />
+                        <div className="h-10 w-10 relative">
+                            <Image
+                                src={'/images/avatar.jpg'}
+                                alt="Picture of the site owner"
+                                fill
+                                sizes="10vw"
+                                className="rounded-full ring-1 dark:ring-white/10 ring-primary/5"
+                            />
+                        </div>
                         <div className="text-sm leading-6">
                             <p className="font-semibold text-primary dark:text-white">
                                 <a href="#">
@@ -169,19 +175,25 @@ export default function About() {
                             <br/>
                             Meet Rrari, the four-legged superstar with more energy than a triple-shot espresso! This
                             little furball has mastered the art of zoomies and is on a mission to sniff out every
-                            adventure (and snack) life has to offer. Whether it's chasing squirrels or demanding belly
-                            rubs, Rrari knows how to keep things fun and unpredictable. She’s the kind of dog who looks
+                            adventure (and snack) life has to offer. Whether it&apos;s chasing squirrels or demanding belly
+                            rubs, Rrari knows how to keep things fun and unpredictable. She&apos;s the kind of dog who looks
                             at a toy and thinks, “Can I destroy this in under a minute?” Challenge accepted! So, if
-                            you’re ready for endless playdates and a lifetime of wagging tails, Rrari's got you covered.
+                            you&apos;re ready for endless playdates and a lifetime of wagging tails, Rrari&apos;s got you covered.
                             🐾
                         </p>
                     </div>
                     <div className="mt-8">
-                        <img
-                            src="/images/ferrari.jpg"
-                            className="rounded-2xl group-hover:ring-white/20 duration-300 aspect-[4/4] bg-primary/5 dark:bg-primary ring-1 ring-white/10  object-cover"
-                            alt=""
-                        />
+                        <div className="relative h-full w-full overflow-hidden">
+                            <Image
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                style={{ width: '100%', height: 'auto' }}
+                                src={'/images/ferrari.jpg'}
+                                alt="Picture of ferrari the dog"
+                                className="rounded-2xl group-hover:ring-white/20 duration-300 aspect-[4/4] bg-primary/5 dark:bg-primary ring-1 ring-white/10 object-cover"
+                            />
+                        </div>
                     </div>
                 </div>
                 <div
@@ -242,11 +254,15 @@ export default function About() {
                     className="lg:row-span-2 ring-1 dark:ring-white/10 ring-primary/5 hover:ring-primary/5 bg-white dark:bg-secondary  dark:hover:ring-white/20 overflow-hidden duration-300 shadow-xl dark:shadow-thick rounded-3xl p-8"
                 >
                     <div className="-mr-24">
-                        <img
-                            src="/images/lexington.png"
-                            className="rounded-2xl object-cover ring-1 h-64 w-full lg:h-auto dark:ring-white/10 ring-primary/5 bg-tertiary"
-                            alt=""
-                        />
+                        <div className="h-64 w-full relative">
+                            <Image
+                                src={'/images/lexington.png'}
+                                alt="Picture of the author"
+                                fill
+                                sizes="100vw"
+                                className="rounded-2xl object-cover ring-1 lg:h-auto dark:ring-white/10 ring-primary/5 bg-tertiary" // just an example
+                            />
+                        </div>
                     </div>
                     <div className="mt-8">
                         <p

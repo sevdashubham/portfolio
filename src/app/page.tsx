@@ -9,14 +9,23 @@ const DynamicSpline = dynamic(() => import('@/components/Spline'), {
     ssr: false,
     loading: () => <Spinner/>,
 })
+const DynamicSplineMobile = dynamic(() => import('@/components/SplineMobile'), {
+    ssr: false,
+    loading: () => <Spinner/>,
+})
 export default function Home() {
     return (
         <main className="w-full h-full bg-white dark:bg-black">
             <Header/>
             <div className="px-4">
-                <div className="h-[90vh] w-full flex items-center justify-center rounded-b-3xl overflow-hidden">
+                <div className="hidden lg:flex h-[90vh] w-full items-center justify-center rounded-b-3xl overflow-hidden">
                     <Suspense fallback={<Spinner/>}>
                         <DynamicSpline/>
+                    </Suspense>
+                </div>
+                <div className="lg:hidden h-[90vh] w-full flex items-center justify-center rounded-b-3xl overflow-hidden">
+                    <Suspense fallback={<Spinner/>}>
+                        <DynamicSplineMobile/>
                     </Suspense>
                 </div>
             </div>
