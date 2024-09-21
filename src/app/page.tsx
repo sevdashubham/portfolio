@@ -14,7 +14,7 @@ export default function Home() {
                 <Suspense fallback={<Spinner/>}>
                     <Spline
                         className="h-[80vh]"
-                        scene="https://draft.spline.design/QHaEJ5nRQpGhRJDO/scene.splinecode"
+                        scene="https://prod.spline.design/WrQluddYjv3nMHVG/scene.splinecode"
                     />
                 </Suspense>
             </div>
