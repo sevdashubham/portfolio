@@ -26,7 +26,8 @@ html {
 .header-background {
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
-    --tw-bg-opacity: 0.9;
+    background: rgba(65, 66, 61, 0.6);
+    --tw-bg-opacity: 0.6;
     border-radius: 3rem;
 }
 
