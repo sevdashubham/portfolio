@@ -30,7 +30,7 @@ export default function Home() {
                 </div>
             </div>
             <Link href={'#work'}>
-                <div id='more' className="pt-6 pb-6 flex items-center justify-center cursor-pointer">
+                <div id='work' className="pt-6 pb-6 flex items-center justify-center cursor-pointer">
                     <div className="scroll"/>
                 </div>
             </Link>
