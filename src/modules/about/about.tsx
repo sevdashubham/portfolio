@@ -256,11 +256,11 @@ export default function About() {
                     <div className="-mr-24">
                         <div className="h-64 w-full relative">
                             <Image
-                                src={'/images/lexington.png'}
-                                alt="Picture of the author"
+                                src={'/images/mobiles.png'}
+                                alt="Stack of Mobiles"
                                 fill
                                 sizes="100vw"
-                                className="rounded-2xl object-cover ring-1 lg:h-auto dark:ring-white/10 ring-primary/5 bg-tertiary" // just an example
+                                className="rounded-2xl object-cover ring-1 lg:h-auto dark:ring-white/10 ring-primary/5"
                             />
                         </div>
                     </div>
@@ -270,8 +270,8 @@ export default function About() {
                         >
                             Skills
                         </p>
-                        <p className="mt-4 text-sm text-zinc-500 dark:text-zinc-400 font-light">
-                            React, Redux, React Native, Swift, Android, Bluetooth smart, Amazon Web Services, Node, Python, Angular, GraphQL/Apollo, NextJS, TypeScript
+                        <p className="mt-4 text-lg text-zinc-500 dark:text-zinc-400 font-light">
+                            JavaScript, Python, Java, ReactJS, NodeJS, React Native, NextJS, VueJS, TypeScript, PostgresQL, MySQL, NoSQL, GraphQL, Android, iOS, Redux/Context API, GCP, ESlint, CSS/CSS3, SASS/SCSS, WebPack, NPM, Azure, GCP, AWS, CI/CD
                         </p>
                     </div>
                 </div>
