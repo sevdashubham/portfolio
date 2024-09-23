@@ -319,7 +319,7 @@ export default function About() {
                     <div className="md:grid md:grid-cols-2 gap-6 lg:grid-cols-1">
                         <div className="mt-4">
                             <p className="text-sm text-pink-500 dark:text-pink-400">
-                                &quot;Big fan of his code. Structrured, clean, scalable and
+                                &quot;Big fan of his code. Structured, clean, scalable and
                                 efficient.&quot;
                             </p>
                             <p className="text-xs mt-2 text-zinc-500">
