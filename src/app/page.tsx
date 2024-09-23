@@ -23,7 +23,7 @@ export default function Home() {
                         <DynamicSpline/>
                     </Suspense>
                 </div>
-                <div className="lg:hidden h-[90vh] w-full flex items-center justify-center rounded-b-3xl overflow-hidden">
+                <div className="lg:hidden h-[70vh] w-full flex items-center justify-center rounded-b-3xl overflow-hidden">
                     <Suspense fallback={<Spinner/>}>
                         <DynamicSplineMobile/>
                     </Suspense>
